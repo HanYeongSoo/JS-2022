@@ -1,13 +1,5 @@
-const a = 5;
-const b = 10;
+const amIUgly = null;
+let something;
 
-let myName = "YeongSoo";
-
-console.log(a + b);
-console.log(a - b);
-console.log(a * b);
-console.log(a / b);
-console.log("내 이름은 : " + myName);
-
-myName = "Han";
-console.log("바뀐 내 이름은 : " + myName);
+console.log(amIUgly); // something은 변수는 존재하지만 값이 없는 것
+console.log(something); //  null은 변수도 있고 값도 있는데 그 값 자체가 null(비어있음)
