@@ -25,3 +25,44 @@ const player = {
 console.log(player);
 player.character = "전사";
 console.log(player);
+
+// =================================================================
+
+function plus(a, b) {
+  console.log("a + b = " + (a + b));
+}
+plus(10, 5);
+
+const player2 = {
+  name: "영수",
+  sayHello: function (otherPersonName) {
+    console.log("hello " + otherPersonName + " nice to meet you");
+  },
+};
+console.log(player2.name);
+player2.sayHello("수현");
+
+const calculator = {
+  add: function (a, b) {
+    console.log(a + b);
+  },
+  minus: function (a, b) {
+    console.log(a - b);
+  },
+  times: function (a, b) {
+    console.log(a * b);
+  },
+  divide: function (a, b) {
+    console.log(a / b);
+  },
+  power: function (a, b) {
+    console.log(a ** b);
+  },
+};
+calculator.add(10, 5);
+calculator.minus(10, 5);
+calculator.times(10, 5);
+calculator.divide(10, 5);
+calculator.power(10, 5);
+
+// =================================================================
