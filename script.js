@@ -44,25 +44,25 @@ player2.sayHello("수현");
 
 const calculator = {
   add: function (a, b) {
-    console.log(a + b);
+    return a + b;
   },
   minus: function (a, b) {
-    console.log(a - b);
+    return a - b;
   },
   times: function (a, b) {
-    console.log(a * b);
+    return a * b;
   },
   divide: function (a, b) {
-    console.log(a / b);
+    return a / b;
   },
   power: function (a, b) {
-    console.log(a ** b);
+    return a ** b;
   },
 };
-calculator.add(10, 5);
-calculator.minus(10, 5);
-calculator.times(10, 5);
-calculator.divide(10, 5);
-calculator.power(10, 5);
+const plusResult = calculator.add(10, 5);
+const minusResult = calculator.minus(plusResult, 5);
+const timesResult = calculator.times(10, minusResult);
+const divideResult = calculator.divide(timesResult, plusResult);
+const powerResult = calculator.power(divideResult, minusResult);
 
 // =================================================================
