@@ -1,3 +1,5 @@
 1. 모든 시작은 document.~~~로 !!
 
-2. 
+2. document.getElementById("") => 말 그대로 html태그 중에 사용하고 싶은 부분을 id=""로 설정을 하고 가져 올 수 있음.
+
+3. 
