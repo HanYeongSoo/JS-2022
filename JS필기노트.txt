@@ -2,4 +2,13 @@
 
 2. document.getElementById("") => 말 그대로 html태그 중에 사용하고 싶은 부분을 id=""로 설정을 하고 가져 올 수 있음.
 
-3. 
+3. document.getElementByClassName == 많은 elements요소를 가져와야 할 때 사용 (array로 옴)
+
+4. document.querySelector(""); == elements를  css방식으로 찾을 수 있음.
+ - 같은 요소가 여러개면 맨 처음꺼가 나옴
+ - const title = document.querySelector("#hello"); 이거랑 밑에꺼랑 같은거임
+   const title = document.getElementById("hello");
+
+5. document.querySelectorAll("") == 여러 요소를 가져와서 array형태로 묶음.
+
+6. 

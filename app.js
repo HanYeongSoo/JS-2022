@@ -1,6 +1,6 @@
-const title = document.getElementById("title");
+const title = document.querySelector(".hello h1");
+const titles = document.querySelectorAll(".hello h1");
+const title = document.getElementById("hello");
 
-title.innerText = "한영수";
-
-console.log(title.id);
-console.log(title.className);
+console.log(title);
+console.log(titles);
