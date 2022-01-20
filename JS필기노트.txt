@@ -11,4 +11,10 @@
 
 5. document.querySelectorAll("") == 여러 요소를 가져와서 array형태로 묶음.
 
-6. 
+6. event란?? 엄청많지 종류가 그 중 click event를 알아보자
+	- const ~~ = ();
+	- function 이름() {
+	  ~~~~~
+	}
+	- const로 받아온 이름.addEventListener("", 함수이름);
+	- 즉 페이지에서 element를 받아 온 후 >> event listener를 추가 한 후 >> 그 event를 listen하고 반응하면 끝
