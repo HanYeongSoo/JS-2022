@@ -18,3 +18,8 @@
 	}
 	- const로 받아온 이름.addEventListener("", 함수이름);
 	- 즉 페이지에서 element를 받아 온 후 >> event listener를 추가 한 후 >> 그 event를 listen하고 반응하면 끝
+
+2022-01-26
+
+1. event에서 onclick이나 onmouse~~에서 on을 생략하고 써야함.
+2. 
