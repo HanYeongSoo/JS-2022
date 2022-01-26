@@ -22,4 +22,18 @@
 2022-01-26
 
 1. event에서 onclick이나 onmouse~~에서 on을 생략하고 써야함.
-2. 
+
+2. Window.event도 존재 --> 말 그대로 인터넷 창과 관련되어 있음
+
+3. h1.onclick = handleTitleClick; == h1.addEventListener"click", handleTitleClick); 같은 표현방법임!
+
+4. 만약에 색을 변경하고싶어 ( 파랑 > 핑크 > 파랑 > 핑크 ... 어떻게 하면 될까?) ==== true로 비교하면 됨
+	.- element를 찾아라
+	.- event를 linten해라
+	.- event에 반응해라
+
+5. 
+
+
+
+
