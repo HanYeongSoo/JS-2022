@@ -52,7 +52,11 @@
 - Application 만들기 (part4!!)
 
 1. 이름이 뭔지 물어 본 후 그 데이터 값 받아오기를 해보자
+	.- document.querySel~~나 getElement나 다 상관없음 우선 받아오고 난 후
+	.- event를 이용해서 함수를 호출하면 됨
 
+2. 조건 : username이 비어 있으면 안됨, 너무 긴 username도 안됨 (.length로 확인)
+	.- 
 
 
 
