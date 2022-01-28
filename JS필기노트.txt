@@ -37,7 +37,18 @@
 	.- but html에 기존의 class가 있다면??
 	.- 한 가지 변경만 생겨도 그 class와 관련된 css, JS를 다 고쳐줘야하는 번거로움이 생김
 	.- 그래서~~~~ 6.에서 알아봄
-6. 
+
+6. const변수를 사용해서 변경할 class를 선언하고 if문을 통해 사용해준다.
+
+
+2022-01-28
+
+1. classList.contains , .remove , .add 사용해봄
+
+2. toggle function = class name이 존재하는지 확인
+	.- toggle은 ()안에 값이 존재하면 제거해주고 ()안에 값이 없다면 추가해주는 신기한 함수
+
+3. 
 
 
 
