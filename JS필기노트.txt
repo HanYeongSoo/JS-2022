@@ -62,7 +62,7 @@
 	.- .preventDefault()를 통해 정보를 확인 할 수 있고 submit의 동작을 막아 줄 수 있음...? 잘 모르겠다
 
 
-5. 
+5. Form은  submit과 관련 , a링크는 
 
 
 
