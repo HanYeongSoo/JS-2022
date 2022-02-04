@@ -6,13 +6,13 @@ const HIDDEN_CLASSNAME = "hidden";
 const USERNAME_KEY = "username";
 
 function onLoginSubmit(event) {
-  event.preventDefault();
+  event.preventDefault(); // 브라우저의 기본 동작을 막아준다 === 새로고침을 해도 이동이 없다
   console.log(loginInput.value);
+
+  loginForm.classList.add(HIDDEN_CLASSNAME);
 
   const username = loginInput.value;
   localStorage.setItem(USERNAME_KEY, username);
-
-  loginForm.classList.add(HIDDEN_CLASSNAME);
 
   // greeting.innerText = "Hello " + username;
   paintGreeting(username);
