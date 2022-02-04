@@ -70,6 +70,14 @@
 	.- 가능함
 
 	.-  이 둘은 같은 표기법 greeting.innerText = "Hello " + username;  === greeting.innerText = `Hello ${username}`;
+
+7. 값을 저장하기 위한 방법
+	.- 브라우저엔 local storage가 존재,  이것을 이용해서 저장하고 나중에 가져다 쓸 수 있음.
+	.- 작은 DB라고 생각하면 편함 (아직 초반이라 이렇게 사용한 듯)
+	.- localStorage.setItem, getItem, removeItem을 이용하면 됨
+	.- localStorage.setItem("loginUser"(key), "영수"(value)) 이런식으로 먼저 저장이 가능함.
+
+ 8. local storage에 username이 존재하는지 보고 >> 없으면  form보이게, 있으면 h1만 보이게 설정
 	.- 
  
 
