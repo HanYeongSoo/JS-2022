@@ -88,7 +88,11 @@ Part5 시작(시간 관련!! 현재 시간 틱톡틱톡)
 	.- intervals : '매번' 일어나야 하는 것 ex) 2초마다 뭐를 해라 
 	.- setInterval(함수이름, 간격을ms로표현); -> 이렇게 사용
 
-	.- timeout : 
+	.- timeout : "한번 만" 정해진 시간에 표현
+	.- setTimeout () -> 위랑 똑같음
+
+2. new Date() -> 현재 시간 표현
+	.- 
 
  
 
