@@ -4,7 +4,11 @@ function getClock() {
   const date = new Date();
   // 00:00:00 으로 시간을 표현하고 싶은 거니까
   //   console.log(date.getHours());
-  clock.innerText = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
+  const hours = String(date.getHours()).padStart(2, "0");
+  const minutes = String(date.getMinutes()).padStart(2, "0");
+  const seconds = String(date.getSeconds()).padStart(2, "0");
+
+  clock.innerText = `${hours}:${minutes}:${seconds}`;
 }
 
 // setInterval(sayHello, 3000);

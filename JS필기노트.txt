@@ -92,7 +92,15 @@ Part5 시작(시간 관련!! 현재 시간 틱톡틱톡)
 	.- setTimeout () -> 위랑 똑같음
 
 2. new Date() -> 현재 시간 표현
-	.- 
+	.- const date = new Date(); 로 선언 후 date.get~~~으로 많은 정보를 가져올 수 있음.
+
+3. String을 문자 두 개로 채워보기
+	.- padStart() 로 사용하면 끝. padEnd()도 있음
+	.- padStart(길이, 그 길이보다 부족하면 추가할 것)
+	
+	.- getHours()에는 padStart()를 사용할 수 없음 -> Hours가 number라 
+
+
 
  
 
