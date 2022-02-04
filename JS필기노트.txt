@@ -62,10 +62,15 @@
 	.- .preventDefault()를 통해 정보를 확인 할 수 있고 submit의 동작을 막아 줄 수 있음...? 잘 모르겠다
 
 
-5. Form은  submit과 관련 , a링크는 
+5. Form은  submit과 관련 , a링크는 ??
 
+2022-02-04
 
+6. form에서 입력되면 form은 숨기고 h1은 표시되도록 해볼 수 있나?
+	.- 가능함
 
+	.-  이 둘은 같은 표기법 greeting.innerText = "Hello " + username;  === greeting.innerText = `Hello ${username}`;
+	.- 
  
 
 
