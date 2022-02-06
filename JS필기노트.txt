@@ -100,6 +100,12 @@ Part5 시작(시간 관련!! 현재 시간 틱톡틱톡)
 	
 	.- getHours()에는 padStart()를 사용할 수 없음 -> Hours가 number라 
 
+Part5 종료
+
+Part6 시작
+
+1. Randomness ?  : 
+
 
 
  
