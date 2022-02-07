@@ -102,9 +102,22 @@ Part5 시작(시간 관련!! 현재 시간 틱톡틱톡)
 
 Part5 종료
 
+2022-02-07
 Part6 시작
 
-1. Randomness ?  : 
+* 3. ‘뭐해?‘라는 두 글자에 ‘네가 보고 싶어’ 나의 속마음을 담아 (아이유 - Blueming)
+* 4. So are you happy now Finally happy now are you (아이유 - 에잇)
+* 5. I'm such a good surfer 가라앉지 않기 (아이유 - 어푸)
+* 6. 강자에게 더 세게 I love gamble (아이유 - Coin)
+* 7. 푸르른 우리 위로 커다란 strawberry moon 한 스쿱 나에게 너를 맡겨볼래 (아이유 - strawberry moon)
+
+1. Randomness ?  : 무작위성
+2. Math.randon() === 0~1사이의 무작위 값 추출
+3. Math.round() === 반올림
+4. Math.ceil() === 무조건 올림
+5. Math.floor() === 무조건 내림
+6. array.length === array의 길이
+
 
 
 
