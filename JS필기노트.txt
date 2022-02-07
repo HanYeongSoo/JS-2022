@@ -112,12 +112,20 @@ Part6 시작
 * 7. 푸르른 우리 위로 커다란 strawberry moon 한 스쿱 나에게 너를 맡겨볼래 (아이유 - strawberry moon)
 
 1. Randomness ?  : 무작위성
-2. Math.randon() === 0~1사이의 무작위 값 추출
-3. Math.round() === 반올림
-4. Math.ceil() === 무조건 올림
-5. Math.floor() === 무조건 내림
-6. array.length === array의 길이
+	-. Math.randon() === 0~1사이의 무작위 값 추출
+	-. Math.round() === 반올림
+	-. Math.ceil() === 무조건 올림
+	-. Math.floor() === 무조건 내림
+	-. array.length === array의 길이
 
+2. Backgournd 관련
+	.- 위에서 한거랑 거의 비슷함
+	.- 이미지를 html에 어떻게 추가할 건지 생각해봐라 === js에서 뭔가를 생성해서 html에 추가 할 줄 아는지 생각
+		.- 여기서 createElement()를 사용
+		.- 
+	.- document.body.appendChild()를 사용하면 그냥 body에 html을 추가한다라고 생각하면 됨
+
+3. 
 
 
 
