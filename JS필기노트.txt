@@ -124,9 +124,16 @@ Part6 시작
 		.- 여기서 createElement()를 사용
 		.- 
 	.- document.body.appendChild()를 사용하면 그냥 body에 html을 추가한다라고 생각하면 됨
+	.- append는 제일 뒤 , prepend는 제일 앞
 
-3. 
+ 
+2022-02-08
 
+-. To Do List 만들기
+
+1. form 하나와 그 form에서 이제 전송 될 to do list를 담을 ul을 생성 후 우선 그 값들을 js로 받아온다.
+
+2. 
 
 
  
