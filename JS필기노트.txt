@@ -135,7 +135,13 @@ Part6 시작
 
 2. 저장한 값을 또 다른 함수로 보내고 그 함수에서는 ul > li > span 형태로 html 요소를 만들어 준다.
 
-3. 
+3. button을 추가 -> click event와 관련이 있는건 알제?
+	.- button을 추가 한다.
+	.- 근데 어디 button이 클릭된 지 알 수가 없네? (li가 여러개 추가됐을 경우)
+	.- target과 parentNode로 어떤 button이 클릭 된 지 알 수 있음
+	.- 즉 event.target.parentElement로 확인이 가능
+
+4. 
 
 
  
