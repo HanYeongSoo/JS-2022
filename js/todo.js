@@ -46,3 +46,13 @@ function handleToDoSubmit(event) {
 }
 
 toDoForm.addEventListener("submit", handleToDoSubmit);
+
+const savedToDos = localStorage.getItem("toDos");
+// console.log(savedToDos);
+
+if (saveToDos !== null) {
+  const parsedToDos = JSON.parse(savedToDos);
+  // console.log(parsedToDos);
+  // 근데 여기서 받아온 list들을 한 덩어리로 쓰는게 아니고 따로따로 쓰고 싶기 때문에 하나씩 뽑아줘야돼
+  parsedToDos.forEach((item) => console.log("이것은 " + parsedToDos));
+}
