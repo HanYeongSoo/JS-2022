@@ -141,8 +141,15 @@ Part6 시작
 	.- target과 parentNode로 어떤 button이 클릭 된 지 알 수 있음
 	.- 즉 event.target.parentElement로 확인이 가능
 
-4. 
 
+2022-02-09
+
+4. 저장하려면 어떻게 해야 할까? (배운걸로 생각하면) -> local storage!!
+	.- const로 배열을 먼저 생성 후 여기에 submit 되는 to do list를 저장함
+	.- 함수를 하나 더 만들어서 local storage에 저장을 함 근데 value가 string이므로 이걸 배열로 바꾸고 싶음
+	.- 배열로 바꾸기 위해 JSON.stringify()를 사용
+
+5. 
 
  
 
