@@ -161,7 +161,13 @@ Part6 시작
 
 	.- 즉 중간에 JSON.parse로 바꾼 값을 기존의 비어있던 배열에 저장을 시킨 후 forEach를 화면 그리는 함수로 뿌려주면 됨
 
-7.   
+
+7. local stroage에 저장은 되는데 삭제가 안되네...? local storage에 저장된 값을 지워야 완전한 삭제가 되니까!!  
+	.- text였던 것을 object로 바꾸고 그 안에 text랑 id를 추가해서 구별 하고 싶음
+	.- li에 id를 구별하여 그 id를 통해 그 특정 li를 삭제하고 싶음
+	.- innerText에 정확하게 이제 object.text 인지 object.id인지 확실하게 구별해서 넣어줘야함
+
+8. 
 
 
 
