@@ -12,6 +12,11 @@ function deleteToDo(event) {
   //   console.log(event.target.parentElement);
   const li = event.target.parentElement;
   li.remove();
+
+  toDos = toDos.filter((clickOfLi) => clickOfLi.id !== parseInt(li.id));
+  // local storage에 존자하냐? 안하냐? 차이 => 존재하지 않는다 === button을 눌렀다 === 삭제했다
+
+  saveToDos();
 }
 
 function paintToDo(newToDoObj) {
@@ -66,3 +71,14 @@ if (savedToDos !== null) {
 
   parsedToDos.forEach(paintToDo);
 }
+
+/**
+ *  const todos = [{text: "han"}, {text:"lololo"}]
+ *  function filterFunc(todos) {return todos.text !=== "lololo"}
+ *  todos.filter(filterFunc) === [{"han"}] 만 나옴
+ *
+ *  // 위랑 아래랑 같음
+ *
+ *  const todos = [{text: "han"}, {text:"lololo"}]
+ *  todos.filter((tods) => todos.text !=== "lololo")
+ */
