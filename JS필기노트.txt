@@ -183,8 +183,12 @@ Part6 시작
 
 	.- navigator.geolocation.getCurrentPosition(성공했을 시, 실패했을 시); 형태로 시작해야함
 	.- 
- 
 
+	.- fetch() 를 활용 실제 url을 가지않고 자바스크립트가 url을 호출해줌
+	.- fetch()는 wetube강의에서 더 자세히 알려줌 꼭 듣자..
+ 
+	.- 검사에서 network쪽에서 weather정보가 들어오는데 이게 다 json형태로 들어오는 거임
+		.- 여기에 많은 정보가 담겨 있으니 필요한 정보를 불러다 쓸 수 있음
 
 
 
