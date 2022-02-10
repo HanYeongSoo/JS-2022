@@ -174,10 +174,16 @@ Part6 시작
 	
 	.- 자세한 건 코드로
 
-9. 
+2022-02-10
 
+1. 위치와 날씨 받아오기
+	.- navigator와 geolocation 활용하기
 
+	.- 처음에 위도와 경도를 받아 와야 하고 그 받아온 숫자를 위치로 변경해줘야 함
 
+	.- navigator.geolocation.getCurrentPosition(성공했을 시, 실패했을 시); 형태로 시작해야함
+	.- 
+ 
 
 
 
