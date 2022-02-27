@@ -8,29 +8,41 @@
     <title>JS2022</title>
   </head>
   <body>
-    <form id="login-form" class="hidden">
-      <input
-        type="text"
-        placeholder="이름을 입력해 주세요."
-        required
-        maxlength="15"
-      />
-      <input type="submit" value="로그인" />
-    </form>
-    <h2 id="clock"></h2>
-    <h1 id="greeting" class="hidden"></h1>
-    <form id="todo-form">
-      <input type="text" placeholder="Write a To Do List" required />
-    </form>
-    <ul id="todo-list"></ul>
-    <div id="quote">
-      <span></span>
-      <span></span>
-    </div>
-    <div id="weather">
-      <span></span>
-      <span></span>
-    </div>
+    <main clsss="main">
+      <div class="container">
+        <h2 id="clock"></h2>
+
+        <form id="login-form" class="hidden">
+          <div class="input-form">
+            <input
+              type="text"
+              required
+              maxlength="15"
+              placeholder="로그인 하시겠습니까?"
+              name="login"
+              id="login"
+            />
+            <input type="submit" value="로그인" class="hidden" />
+          </div>
+        </form>
+
+        <h1 id="greeting" class="hidden"></h1>
+        <form id="todo-form">
+          <input type="text" placeholder="Write a To Do List" required />
+        </form>
+        <ul id="todo-list"></ul>
+        <div id="quote">
+          <span></span>
+          <span></span>
+        </div>
+
+        <div id="weather">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </main>
+
     <script src="js/greeting.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>

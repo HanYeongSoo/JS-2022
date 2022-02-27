@@ -13,4 +13,41 @@
   z-index: -1;
   top: 0;
   left: 0;
+  opacity: 0.8;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#clock {
+  font-size: 82px;
+  color: white;
+}
+
+#login-form {
+  margin-top: 15px;
+}
+
+#todo-form {
+  margin-top: 15px;
+}
+
+.input-form input,
+#todo-form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 200px;
+  height: 30px;
+}
+
+#quote {
+  margin-top: 100px;
+  font-size: 16px;
+  color: white;
 }
